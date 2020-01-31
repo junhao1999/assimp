@@ -5,7 +5,7 @@ You can download and install assimp using the [vcpkg](https://github.com/Microso
 ```bash
     git clone https://github.com/Microsoft/vcpkg.git
     cd vcpkg
-    ./bootstrap-vcpkg.sh
+    bootstrap-vcpkg.bat
     ./vcpkg integrate install
     vcpkg install assimp
 ```
